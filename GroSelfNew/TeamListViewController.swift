@@ -10,19 +10,25 @@ import UIKit
 class TeamListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet var tableView: UITableView!
+    var tableData:[TeamMember] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.dataSource = self
         tableView.delegate = self
+        tableData = TeamMember.sampleTeamData()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        5
+        tableData.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        tableView.dequeueReusableCell(withIdentifier: "teamMember", for: indexPath)
+        let teamCell = tableView.dequeueReusableCell(withIdentifier: "teamMember", for: indexPath) as! TeamTableViewCell
+        let teamMember = tableData[indexPath.row]
+        teamCell.photoImageView.image = teamMember.photo
+        teamCell.nameLabel.text = teamMember.name
+        return teamCell
     }
     
     

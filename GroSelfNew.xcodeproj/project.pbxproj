@@ -24,6 +24,8 @@
 		3FCD9F652BF4AF1900B1AC08 /* GroSelfNewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FCD9F642BF4AF1900B1AC08 /* GroSelfNewUITestsLaunchTests.swift */; };
 		3FCD9F7C2BF4AFAD00B1AC08 /* Grocer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCD9F7B2BF4AFAD00B1AC08 /* Grocer.storyboard */; };
 		7CF604942BF5EEA80061F3D2 /* TeamListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF604932BF5EEA80061F3D2 /* TeamListViewController.swift */; };
+		7CF604962BF6EAB20061F3D2 /* teamMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF604952BF6EAB20061F3D2 /* teamMember.swift */; };
+		7CF604982BF6F5070061F3D2 /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF604972BF6F5070061F3D2 /* TeamTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		3FCD9F642BF4AF1900B1AC08 /* GroSelfNewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroSelfNewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3FCD9F7B2BF4AFAD00B1AC08 /* Grocer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Grocer.storyboard; sourceTree = "<group>"; };
 		7CF604932BF5EEA80061F3D2 /* TeamListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListViewController.swift; sourceTree = "<group>"; };
+		7CF604952BF6EAB20061F3D2 /* teamMember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teamMember.swift; sourceTree = "<group>"; };
+		7CF604972BF6F5070061F3D2 /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,10 +131,12 @@
 				3FCD9F432BF4AF1800B1AC08 /* SceneDelegate.swift */,
 				7CF604932BF5EEA80061F3D2 /* TeamListViewController.swift */,
 				3FCD9F452BF4AF1800B1AC08 /* TeamDetailViewController.swift */,
+				7CF604952BF6EAB20061F3D2 /* teamMember.swift */,
 				3FCD9F472BF4AF1800B1AC08 /* Main.storyboard */,
 				3FCD9F4A2BF4AF1900B1AC08 /* Assets.xcassets */,
 				3FCD9F4C2BF4AF1900B1AC08 /* LaunchScreen.storyboard */,
 				3FCD9F4F2BF4AF1900B1AC08 /* Info.plist */,
+				7CF604972BF6F5070061F3D2 /* TeamTableViewCell.swift */,
 			);
 			path = GroSelfNew;
 			sourceTree = "<group>";
@@ -341,6 +347,8 @@
 				7CF604942BF5EEA80061F3D2 /* TeamListViewController.swift in Sources */,
 				3FCD9F422BF4AF1800B1AC08 /* AppDelegate.swift in Sources */,
 				3FCD9F442BF4AF1800B1AC08 /* SceneDelegate.swift in Sources */,
+				7CF604982BF6F5070061F3D2 /* TeamTableViewCell.swift in Sources */,
+				7CF604962BF6EAB20061F3D2 /* teamMember.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
