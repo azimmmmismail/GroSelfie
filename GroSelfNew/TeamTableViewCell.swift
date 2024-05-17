@@ -9,7 +9,7 @@ import UIKit
 
 class TeamTableViewCell: UITableViewCell {
     
-    @IBOutlet var photoImageView: UIImageView!
+    @IBOutlet var photoImage: UIImageView!
     @IBOutlet var nameLabel: UILabel!
     
 }

@@ -52,15 +52,15 @@
                                     <outlet property="delegate" destination="4nY-bo-CiM" id="jzv-fQ-w2N"/>
                                 </connections>
                             </searchBar>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="K1p-Nc-dnv">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="insetGrouped" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="K1p-Nc-dnv">
                                 <rect key="frame" x="10" y="279" width="373" height="511"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="separatorColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="teamMember" rowHeight="121" id="clU-JD-NCq" userLabel="teamMember" customClass="TeamTableViewCell" customModule="GroSelfNew" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="373" height="121"/>
+                                        <rect key="frame" x="20" y="55.333332061767578" width="333" height="121"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="clU-JD-NCq" id="kwf-MG-eUa">
-                                            <rect key="frame" x="0.0" y="0.0" width="373" height="121"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="333" height="121"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Azim" translatesAutoresizingMaskIntoConstraints="NO" id="beI-tb-U5S">
@@ -72,7 +72,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qc2-MI-4CF">
-                                                    <rect key="frame" x="116" y="19" width="204" height="34"/>
+                                                    <rect key="frame" x="116" y="19" width="164" height="34"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="212" id="lrk-nh-LCy"/>
                                                     </constraints>
@@ -94,7 +94,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="nameLabel" destination="qc2-MI-4CF" id="kzU-bA-c00"/>
-                                            <outlet property="photoImageView" destination="beI-tb-U5S" id="OqK-Ya-2P5"/>
+                                            <outlet property="photoImage" destination="beI-tb-U5S" id="lHX-XR-eaM"/>
                                             <segue destination="KAI-75-HEz" kind="show" id="B35-P4-Dre"/>
                                         </connections>
                                     </tableViewCell>
@@ -126,12 +126,29 @@
                     </view>
                     <navigationItem key="navigationItem" id="zFb-LG-pXc"/>
                     <connections>
+                        <outlet property="gambarZ" destination="pRV-Kx-iCb" id="n3u-qw-aiN"/>
                         <outlet property="tableView" destination="K1p-Nc-dnv" id="bAt-mx-DfC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mDh-0O-2qQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2861.8320610687024" y="-35.211267605633807"/>
+            <point key="canvasLocation" x="2862" y="-35"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="X7A-Da-OJg">
+            <objects>
+                <viewController id="CAH-Hj-THD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rum-J4-S6i">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="dJp-7t-YBv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Xrh-c5-w5R"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9h7-3m-Clh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2862" y="680"/>
         </scene>
         <!--Item-->
         <scene sceneID="Eac-Y2-bBx">
@@ -367,10 +384,33 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="icr-05-qDO"/>
+                    <connections>
+                        <outlet property="nameLabel" destination="uxk-UW-m1T" id="0QW-RH-f5O"/>
+                        <outlet property="photo" destination="Dbu-tm-z8T" id="8wo-4C-Hge"/>
+                        <outlet property="viewBg" destination="s7v-co-mi3" id="OwZ-mV-rOv"/>
+                        <outlet property="viewBg2" destination="J4I-Q6-TZu" id="gnX-xI-xik"/>
+                        <outlet property="viewBg3" destination="Ycp-QD-MZE" id="gTo-qW-RI8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qDa-RQ-wFV" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3721" y="-35"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="A0M-KA-4h1">
+            <objects>
+                <viewController id="dIP-Fd-9Jh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Jkf-Hj-qKf">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="5bh-sA-8ch"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="EHp-Qc-pxk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P0n-lG-XW3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2862" y="-725"/>
         </scene>
     </scenes>
     <resources>
