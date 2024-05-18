@@ -9,6 +9,7 @@ import UIKit
 
 class TeamListViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
+    
     @IBOutlet var gambarZ: UIImageView!
     @IBOutlet var tableView: UITableView!
     //@IBOutlet var gambarDalamTable: UIImageView!
