@@ -69,25 +69,25 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5BV-n9-P5Z">
-                                        <rect key="frame" x="119.33333333333334" y="198.66666666666663" width="114.33333333333334" height="40"/>
+                                        <rect key="frame" x="121.33333333333334" y="198.66666666666663" width="110.33333333333334" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="mYF-BB-rdo"/>
                                         </constraints>
                                         <color key="tintColor" red="0.30980393290000002" green="0.42352938649999999" blue="0.34509804840000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="ENTER">
-                                            <fontDescription key="titleFontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="25"/>
+                                            <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Yp-lS-8cD">
-                                        <rect key="frame" x="128.66666666666666" y="259.66666666666663" width="96" height="42.333333333333314"/>
+                                        <rect key="frame" x="111.33333333333336" y="259.66666666666663" width="130.66666666666663" height="42.333333333333314"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="42.333333333333314" id="cv2-wg-jMR"/>
                                         </constraints>
                                         <color key="tintColor" systemColor="labelColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="SIGN UP">
-                                            <fontDescription key="titleFontDescription" name="Impact" family="Impact" pointSize="23"/>
+                                            <fontDescription key="titleFontDescription" name="Futura-Bold" family="Futura" pointSize="23"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <segue destination="Wr1-EY-La0" kind="show" id="yjh-w6-UyG"/>
@@ -105,7 +105,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.89116815780803316" green="0.94763335493422041" blue="0.81338609999941269" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="2NS-Kz-AoD" firstAttribute="centerX" secondItem="Cng-Xa-CiW" secondAttribute="centerX" id="0bM-Pd-ksN"/>
                             <constraint firstItem="81b-vh-HTY" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="7PJ-86-0ES"/>
@@ -200,14 +200,14 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NkG-lQ-YMx">
-                                        <rect key="frame" x="88.666666666666671" y="315" width="139.66666666666663" height="40"/>
+                                        <rect key="frame" x="90.333333333333357" y="315" width="136.66666666666663" height="40"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="2Vg-8P-It9"/>
                                         </constraints>
                                         <color key="tintColor" red="0.30980393290000002" green="0.42352938649999999" blue="0.34117650989999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled" title="REGISTER">
-                                            <fontDescription key="titleFontDescription" name="HoeflerText-Regular" family="Hoefler Text" pointSize="22"/>
+                                            <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="22"/>
                                         </buttonConfiguration>
                                     </button>
                                 </subviews>
@@ -276,9 +276,6 @@
         <image name="pepperIcon" width="260" height="310"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
