@@ -155,7 +155,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="n81-Pt-LBf">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profillepic" translatesAutoresizingMaskIntoConstraints="NO" id="n81-Pt-LBf">
                                 <rect key="frame" x="15.999999999999996" y="383" width="34.666666666666657" height="34"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="azymmmm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qgi-yY-oH8">
@@ -335,7 +335,7 @@
         <image name="food7" width="397" height="122"/>
         <image name="food8" width="1504.5" height="426"/>
         <image name="heart.fill" catalog="system" width="128" height="107"/>
-        <image name="profile" width="128" height="128"/>
+        <image name="profillepic" width="86" height="86"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
