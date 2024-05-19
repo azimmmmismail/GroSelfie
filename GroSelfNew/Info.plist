@@ -16,11 +16,8 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
-<<<<<<< Updated upstream
-					<string>RecipePage</string>
-=======
-					<string>BookingPage</string>
->>>>>>> Stashed changes
+
+					<string>MainPage</string>
 				</dict>
 			</array>
 		</dict>
