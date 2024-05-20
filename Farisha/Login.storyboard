@@ -78,6 +78,9 @@
                                         <buttonConfiguration key="configuration" style="filled" title="ENTER">
                                             <fontDescription key="titleFontDescription" name="Copperplate" family="Copperplate" pointSize="25"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="hKX-X9-8aP" kind="show" id="UL1-D9-R0V"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Yp-lS-8cD">
                                         <rect key="frame" x="111.33333333333336" y="259.66666666666663" width="130.66666666666663" height="42.333333333333314"/>
@@ -247,6 +250,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oq4-kJ-guW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1768.7022900763359" y="-2.1126760563380285"/>
+        </scene>
+        <!--MainPage-->
+        <scene sceneID="nBc-o3-SLS">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MainPage" id="hKX-X9-8aP" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="mUf-K7-vlB"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SSR-Zq-XWg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2607" y="41"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="iLt-Tv-LO0">
