@@ -215,7 +215,7 @@
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
                                                 <connections>
-                                                    <segue destination="bML-qr-K48" kind="show" id="mcc-Ml-O2O"/>
+                                                    <segue destination="7eg-4g-VlM" kind="show" id="caS-aK-eCa"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -355,14 +355,14 @@
             <point key="canvasLocation" x="5590" y="-35"/>
         </scene>
         <!--BookingPage-->
-        <scene sceneID="prU-lJ-Nzc">
+        <scene sceneID="W8S-xG-dbf">
             <objects>
-                <viewControllerPlaceholder storyboardName="BookingPage" id="bML-qr-K48" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="8tM-n9-fKU"/>
+                <viewControllerPlaceholder storyboardName="BookingPage" id="7eg-4g-VlM" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="rgT-Z3-jgd"/>
                 </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Sjt-2Q-EYD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6VN-3t-BOO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7419" y="-85"/>
+            <point key="canvasLocation" x="6477" y="-35"/>
         </scene>
         <!--Item-->
         <scene sceneID="vPp-vB-Q1b">
@@ -396,7 +396,7 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

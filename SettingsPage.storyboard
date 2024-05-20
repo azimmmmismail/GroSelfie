@@ -139,20 +139,17 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ce0-z1-V2c">
-                        <barButtonItem key="rightBarButtonItem" style="plain" id="ez2-Tk-uWh">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" pointerInteraction="YES" id="I8L-th-qgb">
-                                <rect key="frame" x="324" y="2" width="53" height="40"/>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="Hub-uQ-fVY">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="qdQ-E3-TaQ">
+                                <rect key="frame" x="262" y="4.6666666666666679" width="115" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray">
-                                    <backgroundConfiguration key="background" image="gear" catalog="system"/>
-                                </buttonConfiguration>
+                                <buttonConfiguration key="configuration" style="plain" image="gear" catalog="system" title="Settings"/>
+                                <connections>
+                                    <segue destination="I7U-Rq-KMf" kind="show" id="kCT-Yc-YfC"/>
+                                </connections>
                             </button>
-                            <connections>
-                                <segue destination="I7U-Rq-KMf" kind="presentation" id="RlS-eE-egZ"/>
-                            </connections>
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
@@ -165,14 +162,36 @@
             <objects>
                 <viewController id="I7U-Rq-KMf" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sSU-O0-yS6">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z5Q-YQ-oqA">
-                                <rect key="frame" x="0.0" y="98" width="393" height="778"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z5Q-YQ-oqA">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="876"/>
                                 <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4yc-u2-APV">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="184"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="profillepic" translatesAutoresizingMaskIntoConstraints="NO" id="Uyn-gb-JWW">
+                                                <rect key="frame" x="76" y="73" width="73" height="83"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="108" id="9Bn-9a-aRd"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Muhammad Azim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hJX-fy-Klt">
+                                                <rect key="frame" x="157" y="88" width="179" height="53"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="53" id="OiJ-HF-9s9"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.46274507050000002" green="0.57254904510000004" blue="0.49803921579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </view>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Kxv-f0-QJs">
-                                        <rect key="frame" x="0.0" y="8" width="393" height="383"/>
+                                        <rect key="frame" x="0.0" y="192" width="393" height="383"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="457" id="dxR-Hc-fGO"/>
@@ -356,35 +375,13 @@
                                     <constraint firstItem="Kxv-f0-QJs" firstAttribute="top" secondItem="Z5Q-YQ-oqA" secondAttribute="topMargin" id="wWA-2J-KeG"/>
                                 </constraints>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profillepic" translatesAutoresizingMaskIntoConstraints="NO" id="8PV-jR-Nqw">
-                                <rect key="frame" x="55" y="-21" width="108" height="98"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="108" id="K1h-k9-56P"/>
-                                </constraints>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Muhammad Azim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5xm-kD-aLF">
-                                <rect key="frame" x="175" y="0.0" width="179" height="53"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="53" id="6vN-ch-JaX"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yJs-yE-hP2"/>
-                        <color key="backgroundColor" red="0.46274507050000002" green="0.57254904510000004" blue="0.49803921579999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Z5Q-YQ-oqA" firstAttribute="centerX" secondItem="sSU-O0-yS6" secondAttribute="centerX" id="9vy-W1-E19"/>
-                            <constraint firstItem="5xm-kD-aLF" firstAttribute="leading" secondItem="8PV-jR-Nqw" secondAttribute="trailing" constant="12" id="CM6-aw-ew4"/>
                             <constraint firstItem="Z5Q-YQ-oqA" firstAttribute="leading" secondItem="yJs-yE-hP2" secondAttribute="leading" id="Cn6-dK-grF"/>
-                            <constraint firstItem="Z5Q-YQ-oqA" firstAttribute="top" secondItem="5xm-kD-aLF" secondAttribute="bottom" constant="45" id="JLf-8C-RYh"/>
-                            <constraint firstItem="8PV-jR-Nqw" firstAttribute="leading" secondItem="yJs-yE-hP2" secondAttribute="leading" constant="55" id="M0k-XI-0Xc"/>
-                            <constraint firstItem="5xm-kD-aLF" firstAttribute="top" secondItem="yJs-yE-hP2" secondAttribute="top" id="PFn-Yy-SKZ"/>
-                            <constraint firstItem="Z5Q-YQ-oqA" firstAttribute="top" secondItem="8PV-jR-Nqw" secondAttribute="bottom" constant="21" id="WfS-mF-bxr"/>
-                            <constraint firstItem="yJs-yE-hP2" firstAttribute="trailing" secondItem="5xm-kD-aLF" secondAttribute="trailing" constant="39" id="i9w-HI-ptY"/>
                             <constraint firstAttribute="bottomMargin" secondItem="Z5Q-YQ-oqA" secondAttribute="bottom" constant="-34" id="vKg-SY-dUY"/>
-                            <constraint firstItem="8PV-jR-Nqw" firstAttribute="top" secondItem="sSU-O0-yS6" secondAttribute="topMargin" constant="-21" id="wyS-hT-7Un"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="tdK-Js-6Wn"/>
@@ -416,7 +413,7 @@
         <image name="gear" catalog="system" width="128" height="122"/>
         <image name="profillepic" width="86" height="86"/>
         <systemColor name="secondaryLabelColor">
-            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

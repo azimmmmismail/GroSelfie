@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< Updated upstream
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="nBx-fW-gY1">
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AZD-GH-b7B">
+>>>>>>> Stashed changes
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
@@ -673,7 +677,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" image="bag.circle" catalog="system"/>
                                 <connections>
-                                    <segue destination="iXO-zg-MnP" kind="show" id="gJw-xQ-VtV"/>
+                                    <segue destination="iXO-zg-MnP" kind="show" id="sNP-7O-YKX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -702,7 +706,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ru7-vy-AVo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-725.95419847328242" y="721.83098591549299"/>
+            <point key="canvasLocation" x="200.76335877862596" y="721.83098591549299"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="RHR-GZ-Rlu">
@@ -789,26 +793,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CXQ-7a-C8Z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="196.18320610687022" y="721.83098591549299"/>
+            <point key="canvasLocation" x="1122.9007633587785" y="721.83098591549299"/>
         </scene>
-        <!--Item-->
-        <scene sceneID="fHn-lm-vZv">
+        <!--Navigation Controller-->
+        <scene sceneID="R5W-bb-2Ej">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lYq-uC-zV8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="0FJ-RF-Keg"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AZD-GH-b7B" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oRY-CY-9WH">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UQw-CV-ZIs">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="20u-kn-v6l" kind="relationship" relationship="rootViewController" id="qfE-7c-BTC"/>
+                        <segue destination="20u-kn-v6l" kind="relationship" relationship="rootViewController" id="dM8-oB-PGe"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3nq-yV-XTQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PEu-vr-NaF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1652.6717557251907" y="721.83098591549299"/>
+            <point key="canvasLocation" x="-725.95419847328242" y="721.83098591549299"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="0NW-aV-pcC">
