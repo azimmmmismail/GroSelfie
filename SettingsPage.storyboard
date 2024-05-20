@@ -150,6 +150,12 @@
                                     <segue destination="I7U-Rq-KMf" kind="show" id="kCT-Yc-YfC"/>
                                 </connections>
                             </button>
+<<<<<<< HEAD
+=======
+                            <connections>
+                                <segue destination="I7U-Rq-KMf" kind="show" id="bzO-1a-gEl"/>
+                            </connections>
+>>>>>>> 9bf45459ff77a55ede8be3da2a6f916deb6eef8d
                         </barButtonItem>
                     </navigationItem>
                 </viewController>
@@ -165,8 +171,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+<<<<<<< HEAD
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Z5Q-YQ-oqA">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="876"/>
+=======
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z5Q-YQ-oqA">
+                                <rect key="frame" x="0.0" y="201" width="393" height="651"/>
+>>>>>>> 9bf45459ff77a55ede8be3da2a6f916deb6eef8d
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4yc-u2-APV">
                                         <rect key="frame" x="0.0" y="0.0" width="393" height="184"/>
@@ -375,6 +386,24 @@
                                     <constraint firstItem="Kxv-f0-QJs" firstAttribute="top" secondItem="Z5Q-YQ-oqA" secondAttribute="topMargin" id="wWA-2J-KeG"/>
                                 </constraints>
                             </view>
+<<<<<<< HEAD
+=======
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profillepic" translatesAutoresizingMaskIntoConstraints="NO" id="8PV-jR-Nqw">
+                                <rect key="frame" x="55" y="82" width="108" height="98"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="108" id="K1h-k9-56P"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Muhammad Azim" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5xm-kD-aLF">
+                                <rect key="frame" x="175" y="103" width="179" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="53" id="6vN-ch-JaX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+>>>>>>> 9bf45459ff77a55ede8be3da2a6f916deb6eef8d
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yJs-yE-hP2"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
