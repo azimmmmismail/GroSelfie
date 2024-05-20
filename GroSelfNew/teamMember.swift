@@ -29,8 +29,9 @@ extension TeamMember {
         let photo13 = UIImage(named: "Paiz")
         let photo14 = UIImage(named: "Icha")
         let photo15 = UIImage(named: "Jemang")
-        let photo16 = UIImage(named: "SirComel")
-        let photo17 = UIImage(named: "Aww")
+        let photo16 = UIImage(named: "Wan")
+        let photo17 = UIImage(named: "SirComel")
+        let photo18 = UIImage(named: "Aww")
         
         let teamMember1 = TeamMember (photo: photo1, name: "Nurul")
         let teamMember2 = TeamMember (photo: photo2, name: "Zizim")
@@ -47,10 +48,11 @@ extension TeamMember {
         let teamMember13 = TeamMember (photo: photo13, name: "Paiz")
         let teamMember14 = TeamMember (photo: photo14, name: "Icha")
         let teamMember15 = TeamMember (photo: photo15, name: "Jemang Encem")
-        let teamMember16 = TeamMember (photo: photo16, name: "Sir Omei")
-        let teamMember17 = TeamMember (photo: photo17, name: "7 Budak Omei")
+        let teamMember16 = TeamMember (photo: photo16, name: "Wawan")
+        let teamMember17 = TeamMember (photo: photo17, name: "Sir Omei")
+        let teamMember18 = TeamMember (photo: photo18, name: "7 Budak Omei")
         
-        return [teamMember1, teamMember2, teamMember3, teamMember4, teamMember5, teamMember6, teamMember7, teamMember8, teamMember9, teamMember10, teamMember11, teamMember12, teamMember13, teamMember14, teamMember15, teamMember16, teamMember17]
+        return [teamMember1, teamMember2, teamMember3, teamMember4, teamMember5, teamMember6, teamMember7, teamMember8, teamMember9, teamMember10, teamMember11, teamMember12, teamMember13, teamMember14, teamMember15, teamMember16, teamMember17, teamMember18]
     }
     
     

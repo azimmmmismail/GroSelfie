@@ -235,7 +235,7 @@
                                                         </constraints>
                                                     </view>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="DbM-Xf-y5G">
-                                                        <rect key="frame" x="156" y="16" width="128.66666666666663" height="88"/>
+                                                        <rect key="frame" x="156" y="29.000000000000004" width="128.66666666666663" height="62.333333333333343"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RM 23.90" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfc-ft-Sa5">
                                                                 <rect key="frame" x="0.0" y="0.0" width="128.66666666666666" height="32.666666666666664"/>
@@ -243,14 +243,8 @@
                                                                 <color key="textColor" red="0.2470588088" green="0.33725491169999999" blue="0.13725490870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shin Ramyun" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vuN-Yn-Zec">
-                                                                <rect key="frame" x="0.0" y="38.666666666666686" width="105.33333333333333" height="19.666666666666671"/>
-                                                                <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="15"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-Spicy" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ho4-LD-pV4">
-                                                                <rect key="frame" x="0.0" y="64.333333333333314" width="48.333333333333336" height="23.666666666666671"/>
+                                                                <rect key="frame" x="0.0" y="38.666666666666686" width="48.333333333333336" height="23.666666666666671"/>
                                                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="18"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -1262,6 +1256,26 @@
             </objects>
             <point key="canvasLocation" x="-1652.6717557251907" y="721.83098591549299"/>
         </scene>
+
+        <!--Tab Bar Controller-->
+        <scene sceneID="0NW-aV-pcC">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="nBx-fW-gY1" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="m8r-XD-c60">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="lYq-uC-zV8" kind="relationship" relationship="viewControllers" id="6Al-zq-zTj"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="10s-De-pL8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2579.3893129770991" y="721.83098591549299"/>
+        </scene>
+
     </scenes>
     <resources>
         <image name="air kotak" width="540" height="540"/>
