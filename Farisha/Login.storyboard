@@ -251,10 +251,10 @@
             </objects>
             <point key="canvasLocation" x="1819" y="439"/>
         </scene>
-        <!--MainPage-->
+        <!--Main-->
         <scene sceneID="nBc-o3-SLS">
             <objects>
-                <viewControllerPlaceholder storyboardName="MainPage" id="hKX-X9-8aP" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Main" id="hKX-X9-8aP" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="mUf-K7-vlB"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SSR-Zq-XWg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
