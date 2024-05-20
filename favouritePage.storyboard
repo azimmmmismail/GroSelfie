@@ -91,6 +91,14 @@
                                                     <backgroundConfiguration key="background" image="food5" imageContentMode="scaleAspectFill"/>
                                                 </buttonConfiguration>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NuO-fB-JQJ">
+                                                <rect key="frame" x="8" y="460" width="377" height="105"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled">
+                                                    <backgroundConfiguration key="background" image="food2" imageContentMode="scaleAspectFill"/>
+                                                </buttonConfiguration>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
@@ -330,6 +338,7 @@
         <image name="BurgerIcon" width="423" height="292"/>
         <image name="chefIcon" width="395" height="357"/>
         <image name="food1" width="1512" height="2016"/>
+        <image name="food2" width="1512" height="2016"/>
         <image name="food4" width="1512" height="2016"/>
         <image name="food5" width="2142" height="2856"/>
         <image name="food7" width="397" height="122"/>
