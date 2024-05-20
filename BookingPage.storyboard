@@ -1252,26 +1252,6 @@
             </objects>
             <point key="canvasLocation" x="-1652.6717557251907" y="721.83098591549299"/>
         </scene>
-
-        <!--Tab Bar Controller-->
-        <scene sceneID="0NW-aV-pcC">
-            <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="nBx-fW-gY1" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="m8r-XD-c60">
-                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="lYq-uC-zV8" kind="relationship" relationship="viewControllers" id="6Al-zq-zTj"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="10s-De-pL8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2579.3893129770991" y="721.83098591549299"/>
-        </scene>
-
     </scenes>
     <resources>
         <image name="air kotak" width="540" height="540"/>
