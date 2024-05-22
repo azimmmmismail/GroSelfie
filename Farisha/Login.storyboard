@@ -22,6 +22,13 @@
                                     <constraint firstAttribute="width" constant="540" id="vh0-PK-DC2"/>
                                 </constraints>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pepperIcon" translatesAutoresizingMaskIntoConstraints="NO" id="93a-CC-VJS">
+                                <rect key="frame" x="-98" y="8" width="290" height="293"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="290" id="5DH-AU-0Uh"/>
+                                    <constraint firstAttribute="height" constant="293" id="klg-rJ-6Ya"/>
+                                </constraints>
+                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="3LinesIcon" translatesAutoresizingMaskIntoConstraints="NO" id="81b-vh-HTY">
                                 <rect key="frame" x="319" y="131" width="499" height="190"/>
                                 <constraints>
@@ -98,19 +105,12 @@
                                 </constraints>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo baru" translatesAutoresizingMaskIntoConstraints="NO" id="Ouc-Rd-bRp">
-                                <rect key="frame" x="8" y="97" width="377" height="250"/>
+                                <rect key="frame" x="14" y="97" width="365" height="224"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pepperIcon" translatesAutoresizingMaskIntoConstraints="NO" id="93a-CC-VJS">
-                                <rect key="frame" x="-98" y="8" width="290" height="293"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="290" id="5DH-AU-0Uh"/>
-                                    <constraint firstAttribute="height" constant="293" id="klg-rJ-6Ya"/>
-                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" red="0.78039217000000005" green="0.84313726430000002" blue="0.80000001190000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.85374324170010985" green="0.92329593053711345" blue="0.87848103697053093" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="81b-vh-HTY" firstAttribute="centerY" secondItem="5EZ-qb-Rvc" secondAttribute="centerY" id="7PJ-86-0ES"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="93a-CC-VJS" secondAttribute="trailing" constant="256" id="7iR-8W-a1g"/>
@@ -143,8 +143,8 @@
                                     <constraint firstAttribute="width" constant="1244" id="GJv-RM-Zsa"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pepperIcon" translatesAutoresizingMaskIntoConstraints="NO" id="VXa-me-p38">
-                                <rect key="frame" x="-165" y="-21" width="319" height="299"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pepperIcon" translatesAutoresizingMaskIntoConstraints="NO" id="VXa-me-p38">
+                                <rect key="frame" x="-101" y="0.0" width="319" height="299"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="299" id="QDo-8n-4pU"/>
                                     <constraint firstAttribute="width" constant="319" id="dYx-Dv-UZu"/>
@@ -223,12 +223,12 @@
                                 </constraints>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo baru" translatesAutoresizingMaskIntoConstraints="NO" id="Brl-n3-8FY">
-                                <rect key="frame" x="-4" y="59" width="401" height="234"/>
+                                <rect key="frame" x="8" y="59" width="377" height="219"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="D5s-qe-ara"/>
-                        <color key="backgroundColor" red="0.78039217000000005" green="0.84313726430000002" blue="0.80000001190000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.84717091160796443" green="0.91618816636185574" blue="0.87171826911170358" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="Lqw-o6-hTy" firstAttribute="top" secondItem="D5s-qe-ara" secondAttribute="top" constant="28" id="4qz-ak-Tgs"/>
                             <constraint firstItem="Lqw-o6-hTy" firstAttribute="centerX" secondItem="ecy-yT-Rxz" secondAttribute="centerX" id="9Fo-c6-vex"/>
