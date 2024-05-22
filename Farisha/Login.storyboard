@@ -15,22 +15,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="brocoliIcon" translatesAutoresizingMaskIntoConstraints="NO" id="spS-P7-NeR">
-                                <rect key="frame" x="10" y="635" width="540" height="291"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="brocoliIcon" translatesAutoresizingMaskIntoConstraints="NO" id="spS-P7-NeR">
+                                <rect key="frame" x="42" y="626" width="540" height="291"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="291" id="MTV-LQ-9GC"/>
                                     <constraint firstAttribute="width" constant="540" id="vh0-PK-DC2"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pepperIcon" translatesAutoresizingMaskIntoConstraints="NO" id="93a-CC-VJS">
-                                <rect key="frame" x="-153" y="27.333333333333343" width="290" height="293"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="290" id="5DH-AU-0Uh"/>
-                                    <constraint firstAttribute="height" constant="293" id="klg-rJ-6Ya"/>
-                                </constraints>
-                            </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="3LinesIcon" translatesAutoresizingMaskIntoConstraints="NO" id="81b-vh-HTY">
-                                <rect key="frame" x="-426" y="131" width="1244" height="591"/>
+                                <rect key="frame" x="319" y="131" width="499" height="190"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="1244" id="Q9u-CO-HMN"/>
                                 </constraints>
@@ -108,6 +101,13 @@
                                 <rect key="frame" x="8" y="97" width="377" height="250"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="pepperIcon" translatesAutoresizingMaskIntoConstraints="NO" id="93a-CC-VJS">
+                                <rect key="frame" x="-98" y="8" width="290" height="293"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="290" id="5DH-AU-0Uh"/>
+                                    <constraint firstAttribute="height" constant="293" id="klg-rJ-6Ya"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" red="0.78039217000000005" green="0.84313726430000002" blue="0.80000001190000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -138,7 +138,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="3LinesIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Lqw-o6-hTy">
-                                <rect key="frame" x="-426" y="131" width="1244" height="591"/>
+                                <rect key="frame" x="510" y="131" width="308" height="266"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="1244" id="GJv-RM-Zsa"/>
                                 </constraints>
