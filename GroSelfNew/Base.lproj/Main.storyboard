@@ -20,6 +20,7 @@
                         <segue destination="a3F-WP-rij" kind="relationship" relationship="viewControllers" id="qNn-aZ-7Dp"/>
                         <segue destination="6ZC-oe-0L5" kind="relationship" relationship="viewControllers" id="zcr-NO-dIM"/>
                         <segue destination="XBS-a4-6c4" kind="relationship" relationship="viewControllers" id="L7W-vm-qSB"/>
+                        <segue destination="HhA-VG-i1r" kind="relationship" relationship="viewControllers" id="hLq-GD-CZF"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2ox-Z9-c5L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -65,16 +66,26 @@
             </objects>
             <point key="canvasLocation" x="-208" y="611"/>
         </scene>
-        <!--SettingsPage-->
+        <!--Grocer-->
         <scene sceneID="QBs-OP-Qmq">
             <objects>
-                <viewControllerPlaceholder storyboardName="SettingsPage" id="h8h-bw-xWu" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Grocer" id="h8h-bw-xWu" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="jgN-PD-qdr"/>
                     <navigationItem key="navigationItem" id="5jy-M0-JNa"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bIf-Wk-Q7g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="560" y="611"/>
+        </scene>
+        <!--SettingsPage-->
+        <scene sceneID="isn-9D-QI9">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SettingsPage" id="vqE-qL-WwB" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="gbW-4i-N07"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7C3-rE-bre" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1382" y="603"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="pMI-yD-5Vp">
@@ -99,7 +110,7 @@
         <scene sceneID="eHj-DB-No9">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XBS-a4-6c4" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="person.crop.circle" catalog="system" id="BPB-ea-Vli"/>
+                    <tabBarItem key="tabBarItem" title="" image="message" catalog="system" id="BPB-ea-Vli"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Ekn-s8-R4K">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -114,10 +125,30 @@
             </objects>
             <point key="canvasLocation" x="560" y="80"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="B8Y-ya-NqM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HhA-VG-i1r" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="person.crop.circle" catalog="system" id="4Uw-bx-40u"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hPQ-dn-NN5">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vqE-qL-WwB" kind="relationship" relationship="rootViewController" id="hh8-0M-vIe"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WPm-7p-mmb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1364" y="80"/>
+        </scene>
     </scenes>
     <resources>
         <image name="book.pages" catalog="system" width="107" height="128"/>
         <image name="house" catalog="system" width="128" height="104"/>
+        <image name="message" catalog="system" width="128" height="116"/>
         <image name="person.crop.circle" catalog="system" width="128" height="123"/>
     </resources>
 </document>
