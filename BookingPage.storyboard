@@ -81,6 +81,18 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YrF-HM-Oab">
                                         <rect key="frame" x="0.0" y="0.0" width="393.66666666666669" height="1500"/>
                                         <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="chefIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Kbs-zw-3k3">
+                                                <rect key="frame" x="-119" y="40" width="261" height="357"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="261" id="B3G-o4-GRW"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="BurgerIcon" translatesAutoresizingMaskIntoConstraints="NO" id="anc-YA-yeM">
+                                                <rect key="frame" x="155" y="583" width="314" height="278.66666666666674"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="314" id="Kp4-fa-eet"/>
+                                                </constraints>
+                                            </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="HGX-Io-pDc">
                                                 <rect key="frame" x="22" y="8" width="285.33333333333331" height="120"/>
                                                 <subviews>
@@ -628,6 +640,12 @@
                                                     <segue destination="iXO-zg-MnP" kind="show" id="3cX-sJ-Xzy"/>
                                                 </connections>
                                             </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="chefIcon" translatesAutoresizingMaskIntoConstraints="NO" id="jl7-Eh-6GJ">
+                                                <rect key="frame" x="82" y="982" width="261" height="357"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="261" id="H7I-L7-Ls7"/>
+                                                </constraints>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
@@ -1060,10 +1078,12 @@
         <segue reference="gJw-xQ-VtV"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="BurgerIcon" width="423" height="292"/>
         <image name="Epul" width="479" height="640"/>
         <image name="Yasmin" width="1134" height="2016"/>
         <image name="air kotak" width="540" height="540"/>
         <image name="bag.circle" catalog="system" width="128" height="123"/>
+        <image name="chefIcon" width="395" height="357"/>
         <image name="coklat" width="400" height="400"/>
         <image name="item1" width="1512" height="2016"/>
         <image name="keropok" width="320" height="320"/>

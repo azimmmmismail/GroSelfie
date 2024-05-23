@@ -93,7 +93,7 @@
                                     <backgroundConfiguration key="background" image="food9" imageContentMode="scaleAspectFill"/>
                                 </buttonConfiguration>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQ0-6h-BfY">
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQ0-6h-BfY">
                                 <rect key="frame" x="16" y="224" width="361" height="154"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="154" id="r6z-Ex-bHx"/>
