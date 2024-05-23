@@ -32,11 +32,11 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Zarif" translatesAutoresizingMaskIntoConstraints="NO" id="pRV-Kx-iCb">
                                 <rect key="frame" x="16" y="80" width="134" height="126"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Zarif" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gvb-gb-wsa">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zarif" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gvb-gb-wsa">
                                 <rect key="frame" x="182" y="120" width="176" height="46"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="46" id="X9r-aJ-cyx"/>
-                                    <constraint firstAttribute="width" constant="76" id="fcl-mu-HhN"/>
+                                    <constraint firstAttribute="height" constant="46" id="FOc-PG-XzC"/>
+                                    <constraint firstAttribute="width" constant="176" id="gBY-0T-PuO"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Futura-Bold" family="Futura" pointSize="38"/>
                                 <nil key="textColor"/>
@@ -105,22 +105,22 @@
                         <viewLayoutGuide key="safeArea" id="lLQ-0N-5C7"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="pRV-Kx-iCb" firstAttribute="centerY" secondItem="Gvb-gb-wsa" secondAttribute="centerY" id="0yK-I9-i2K"/>
                             <constraint firstItem="N2z-c7-3Ac" firstAttribute="top" secondItem="VT8-7a-ETU" secondAttribute="topMargin" constant="-32" id="3Or-34-MZE"/>
                             <constraint firstItem="uwt-Ie-4PP" firstAttribute="centerX" secondItem="VT8-7a-ETU" secondAttribute="centerX" id="CZL-l0-chh"/>
                             <constraint firstAttribute="trailingMargin" secondItem="6y9-6z-vE4" secondAttribute="trailing" constant="-74" id="KZV-Dk-LqU"/>
+                            <constraint firstItem="Gvb-gb-wsa" firstAttribute="top" secondItem="lLQ-0N-5C7" secondAttribute="top" constant="17" id="NNo-nT-ZyR"/>
                             <constraint firstItem="lLQ-0N-5C7" firstAttribute="bottom" secondItem="N2z-c7-3Ac" secondAttribute="bottom" constant="144" id="Q3k-eg-FFB"/>
+                            <constraint firstItem="Gvb-gb-wsa" firstAttribute="leading" secondItem="pRV-Kx-iCb" secondAttribute="trailing" constant="32" id="Q9J-4J-qt9"/>
+                            <constraint firstItem="Gvb-gb-wsa" firstAttribute="centerY" secondItem="pRV-Kx-iCb" secondAttribute="centerY" id="RGz-PA-ZTp"/>
                             <constraint firstItem="K1p-Nc-dnv" firstAttribute="top" secondItem="uwt-Ie-4PP" secondAttribute="bottom" constant="12" id="RS7-4a-mMq"/>
                             <constraint firstItem="uwt-Ie-4PP" firstAttribute="top" secondItem="pRV-Kx-iCb" secondAttribute="bottom" constant="17" id="SIQ-Xe-h7c"/>
-                            <constraint firstItem="uwt-Ie-4PP" firstAttribute="top" secondItem="Gvb-gb-wsa" secondAttribute="bottom" constant="57" id="Uvf-du-69D"/>
                             <constraint firstItem="pRV-Kx-iCb" firstAttribute="leading" secondItem="VT8-7a-ETU" secondAttribute="leadingMargin" id="Yas-5Q-kIm"/>
                             <constraint firstItem="N2z-c7-3Ac" firstAttribute="leading" secondItem="VT8-7a-ETU" secondAttribute="leadingMargin" constant="-54" id="cWX-Rr-B7J"/>
+                            <constraint firstItem="uwt-Ie-4PP" firstAttribute="top" secondItem="Gvb-gb-wsa" secondAttribute="bottom" constant="57" id="d4E-tT-woR"/>
                             <constraint firstItem="6y9-6z-vE4" firstAttribute="top" secondItem="VT8-7a-ETU" secondAttribute="top" constant="386" id="dZr-2o-QS0"/>
-                            <constraint firstItem="lLQ-0N-5C7" firstAttribute="trailing" secondItem="Gvb-gb-wsa" secondAttribute="trailing" constant="135" id="fF0-96-0Pc"/>
-                            <constraint firstItem="Gvb-gb-wsa" firstAttribute="top" secondItem="lLQ-0N-5C7" secondAttribute="top" constant="17" id="gM5-PA-JaU"/>
                             <constraint firstItem="uwt-Ie-4PP" firstAttribute="leading" secondItem="lLQ-0N-5C7" secondAttribute="leading" constant="12" id="gxB-FU-scW"/>
                             <constraint firstAttribute="bottomMargin" secondItem="K1p-Nc-dnv" secondAttribute="bottom" constant="-21" id="j3a-lf-E1V"/>
-                            <constraint firstItem="Gvb-gb-wsa" firstAttribute="leading" secondItem="pRV-Kx-iCb" secondAttribute="trailing" constant="32" id="nWJ-qb-wRD"/>
+                            <constraint firstItem="lLQ-0N-5C7" firstAttribute="trailing" secondItem="Gvb-gb-wsa" secondAttribute="trailing" constant="35" id="ore-8S-Lw8"/>
                             <constraint firstItem="uwt-Ie-4PP" firstAttribute="centerX" secondItem="K1p-Nc-dnv" secondAttribute="centerX" id="vM4-1V-KDx"/>
                             <constraint firstItem="K1p-Nc-dnv" firstAttribute="leading" secondItem="lLQ-0N-5C7" secondAttribute="leading" constant="10" id="zO4-J7-PTu"/>
                         </constraints>
